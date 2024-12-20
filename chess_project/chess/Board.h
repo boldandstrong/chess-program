@@ -6,6 +6,12 @@ class Piece;
 class Board
 {
 public:
-	string getBoard();
+	Board();
+	~Board();
+
+	void printBoard() const;
+
 	Piece* _board[8][8];
+private:
+
 };

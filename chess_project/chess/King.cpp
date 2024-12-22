@@ -15,5 +15,51 @@ int King::move(string dest)
 
 int King::isValid(string dest) const
 {
-    int src = stringTo
+    int* dstArr = Board::stringToIndex(dest);
+    int* srcArr = Board::stringToIndex(this->_place);
+
+    if (srcArr[0] == dstArr[0] && srcArr[1] + 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] == dstArr[0] && srcArr[1] - 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] + 1 == dstArr[0] && srcArr[1] + 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] + 1 == dstArr[0] && srcArr[1] - 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] - 1 == dstArr[0] && srcArr[1] + 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] - 1 == dstArr[0] && srcArr[1] - 1 == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] + 1 == dstArr[0] && srcArr[1] == dstArr[1])
+    {
+        return 0;
+    }
+
+    if (srcArr[0] - 1 == dstArr[0] && srcArr[1] == dstArr[1])
+    {
+        return 0;
+    }
+
+    delete[] dstArr;
+    delete[] srcArr;
+
+    return 6;
 }

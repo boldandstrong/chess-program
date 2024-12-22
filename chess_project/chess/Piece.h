@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include "Board.h"
 #include <math.h>
 #include "string.h"
 using namespace std;
@@ -14,10 +13,12 @@ public:
 	~Piece();
 	virtual int move(string dest) = 0;
 	virtual int isValid(string dest) const = 0;
+
+	void setPlace(string place);
+
 	string getColor() const;
-
 	string returnType() const ;
-
+	string getType() const;
 protected:
 	string _color;
 	string _type;

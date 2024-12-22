@@ -1,6 +1,8 @@
 #pragma once
 #include "Piece.h"
-#include "Board.h"
+#include "string.h"
+using namespace std;
+
 
 class Rook : public Piece
 {

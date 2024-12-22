@@ -1,6 +1,8 @@
 #pragma once
-#include "Piece.h"
 #include "string.h"
+#include "Rook.h"
+#include "king.h"
+
 using namespace std;
 
 class Piece;
@@ -26,7 +28,13 @@ public:
 	// remove piece from the board
 	void removePiece(string index);
 
-	int movePiece(string move);
+	int movePiece(string move, string player_color);
 
+	int isCheck(string color) const;
+
+	int isThreatenedByPawn(string place) const;
+
+	string _king_black_place;
+	string _king_white_place;
 	Piece* _board[8][8];
 };

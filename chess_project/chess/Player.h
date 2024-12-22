@@ -4,12 +4,11 @@
 class Player
 {
 public:
-	Player(Board* board, string color, string king_loc);
+	Player(Board* board, string color);
 	~Player();
 	
 	
 private:
-	string _king_place;
 	string _color;
 	Board* _board;
 };

@@ -1,7 +1,7 @@
 #include "Board.h"
 #include "Player.h"
 #include <iostream>
-#include <string>
+#include <string.h>
 
 using namespace std;
 
@@ -22,33 +22,39 @@ int main()
 
     string userInput = "";
     string move = "";
-    string corrent_player = "white";
+    string current_player = "white";
     Board* board = new Board();  
-    
-    Player white(board, "white", "e1");
-    Player black(board, "black",  "e8");
+   
+
+    Player white(board, "white");
+    Player black(board, "black");
 
     int moveAns = 0;
 
     while (userInput != "checkMate")
     {
+        board->printBoard();
+        cout << "current player: " << current_player << endl;
         cout << "Enter your move: ";
         cin >> move;
 
-        moveAns = board->movePiece(move);
+        moveAns = board->movePiece(move, current_player);
         
         cout << errorsArr[moveAns] << endl;
 
-        if (moveAns == 8)
-        {  // Checkmate
-            cout << "Mate! " << corrent_player << " won!" << endl;
-            break;
+        if (moveAns == 8 || moveAns < 2)
+        {
+            if (moveAns == 8)
+            {  // Checkmate
+                cout << "Mate! " << current_player << " won!" << endl;
+                break;
+            }
+
+            // Switch player
+            current_player = (current_player == "white") ? "black" : "white";
         }
-
-        // Switch player
-        corrent_player = (corrent_player == "white") ? "black" : "white";
-
-        board->printBoard();
+        
+        
     }
 
     delete board;  // Free memory

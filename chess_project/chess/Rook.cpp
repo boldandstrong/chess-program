@@ -1,4 +1,5 @@
 #include "Rook.h"
+#include "Board.h"
 
 Rook::Rook(string type, string place, Board* board, string color) : Piece(type, place, board, color)
 { }
@@ -20,65 +21,78 @@ int Rook::isValid(string dest) const
     int* dst = Board::stringToIndex(dest);
     int diffence = 0, i = 0;
 
+    int x = src[0];
+    int y = src[1];
+    int x2 = dst[0];
+    int y2 = dst[1];
+
     if (src[0] == dst[0])
     {
-        diffence = src[1] - dst[1];
+        diffence = dst[1] - src[1];
+
         if (diffence > 0)
         {
-            for (i = src[1]; i < dst[1]; i++)
+            for (i = src[1] + 1; i < dst[1]; i++)
             {
-                if (this->_board->_board[src[0]][i] == nullptr)
+                if (this->_board->_board[src[0]][i] != nullptr)
                 {
+                    delete[] src;
+                    delete[] dst;
                     return 6;
                 }
             }
-
-            return 0;
         }
         else
         {
-            for (i = dst[1]; i < src[1]; i++)
+            for (i = dst[1] + 1; i < src[1]; i++)
             {
-                if (this->_board->_board[src[0]][i] == nullptr)
+                if (this->_board->_board[src[0]][i] != nullptr)
                 {
+                    delete[] src;
+                    delete[] dst;
                     return 6;
                 }
             }
-
-            return 0;
         }
     }
     else if (src[1] == dst[1])
     {
-        diffence = src[0] - dst[0];
+        diffence = dst[0] - src[0];
+
         if (diffence > 0)
         {
-            for (i = src[0]; i < dst[0]; i++)
+            for (i = src[0] + 1; i < dst[0]; i++)
             {
-                if (this->_board->_board[i][src[1]] == nullptr)
-                {
+                if (this->_board->_board[i][src[1]] != nullptr)
+				{
+					delete[] src;
+					delete[] dst;
                     return 6;
                 }
             }
-
-            return 0;
         }
         else
         {
-            for (i = dst[0]; i < src[0]; i++)
+            for (i = dst[0] + 1; i < src[0]; i++)
             {
-                if (this->_board->_board[i][src[1]] == nullptr)
-                {
+                if (this->_board->_board[i][src[1]] != nullptr)
+				{
+					delete[] src;
+					delete[] dst;
                     return 6;
                 }
             }
-
-            return 0;
         }
     }
     else
-    {
+	{
+		delete[] src;
+		delete[] dst;
         return 6;
     }
+
+	delete[] src;
+	delete[] dst;
     return 0;
 }
+

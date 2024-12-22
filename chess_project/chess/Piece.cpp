@@ -21,7 +21,17 @@ string Piece::returnType() const
     return this->_type;
 }
 
+string Piece::getType() const
+{
+    return this->_type;
+}
+
 string Piece::getColor() const
 {
     return this->_color;
+}
+
+void Piece::setPlace(string place)
+{
+    this->_place = place;
 }

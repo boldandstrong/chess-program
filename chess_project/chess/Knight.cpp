@@ -1,35 +1,11 @@
 #include "Knight.h"
 
-int Knight::move(string dest)
+int Knight::isValid(string dest) const
 {
-    // Calculate source coordinates
-    int srcRow = place[0] - 'a';  // Convert 'a'-'h' to 0-7
-    int srcCol = place[1] - '1';  // Convert '1'-'8' to 0-7
+	int* srcArr = Board::stringToIndex(this->_place);
+	int* dstArr = Board::stringToIndex(dest);
 
-    int dstRow = place[0] - 'a';  // Convert 'a'-'h' to 0-7
-    int dstCol = place[1] - '1';  // Convert '1'-'8' to 0-7
+	int tempRow = 0, tempCol = 0;
 
-    if(srcRow <= 8 && srcRow >= 0 && dstRow <= 8 && dstCol >= 0)
-    {
-        if (dest != this->place)
-        {
-           if (this->_board-< 
-                [srcRow][srcCol] != NULL)
-            {
-
-            }
-            else
-            {
-                return 
-            }
-        }
-        else
-        {
-            return 7;
-        }
-    }
-    else
-    {
-        return 5;
-    }
+	return 0;
 }

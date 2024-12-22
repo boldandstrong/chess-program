@@ -32,7 +32,6 @@ public:
 
 	int isCheck(string color) const;
 
-	int isThreatenedByPawn(string place) const;
 
 	string _king_black_place;
 	string _king_white_place;

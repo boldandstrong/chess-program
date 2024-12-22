@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,8 +19,28 @@
       "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Knight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DF58DD4-E549-44B4-B850-85911266169F}|chess\\chess.vcxproj|solutionrelative:chess\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,103 +49,103 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 283,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 167,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rook.cpp",
-              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp",
-              "RelativeDocumentMoniker": "chess\\Rook.cpp",
-              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp*",
-              "RelativeToolTip": "chess\\Rook.cpp*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-22T14:51:56.026Z",
+              "DocumentIndex": 8,
+              "Title": "Piece.h",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Piece.h",
+              "RelativeDocumentMoniker": "chess\\Piece.h",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Piece.h",
+              "RelativeToolTip": "chess\\Piece.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T16:44:45.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Knight.h",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.h",
+              "RelativeDocumentMoniker": "chess\\Knight.h",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.h",
+              "RelativeToolTip": "chess\\Knight.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T16:39:27.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Rook.h",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.h",
+              "RelativeDocumentMoniker": "chess\\Rook.h",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.h",
+              "RelativeToolTip": "chess\\Rook.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T16:39:19.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rook.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp",
+              "RelativeDocumentMoniker": "chess\\Rook.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Rook.cpp",
+              "RelativeToolTip": "chess\\Rook.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-22T16:38:54.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Knight.cpp",
               "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.cpp",
               "RelativeDocumentMoniker": "chess\\Knight.cpp",
               "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.cpp",
               "RelativeToolTip": "chess\\Knight.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-22T14:32:25.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "King.cpp",
-              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.cpp",
-              "RelativeDocumentMoniker": "chess\\King.cpp",
-              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.cpp",
-              "RelativeToolTip": "chess\\King.cpp",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-22T13:51:55.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "King.h",
-              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h",
-              "RelativeDocumentMoniker": "chess\\King.h",
-              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h",
-              "RelativeToolTip": "chess\\King.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T13:51:49.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Knight.h",
-              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.h",
-              "RelativeDocumentMoniker": "chess\\Knight.h",
-              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Knight.h",
-              "RelativeToolTip": "chess\\Knight.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T13:51:43.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Board.cpp",
               "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.cpp",
               "RelativeDocumentMoniker": "chess\\Board.cpp",
               "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.cpp",
               "RelativeToolTip": "chess\\Board.cpp",
-              "ViewState": "AgIAANAAAAAAAAAAAAAUwO4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAHAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-22T06:25:35.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Console.cpp",
               "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Console.cpp",
               "RelativeDocumentMoniker": "chess\\Console.cpp",
               "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Console.cpp",
               "RelativeToolTip": "chess\\Console.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-20T08:44:10.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Board.h",
               "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\Board.h",
               "RelativeDocumentMoniker": "chess\\Board.h",
@@ -151,9 +159,35 @@
           ]
         },
         {
-          "DockedHeight": 72,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 188,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "King.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.cpp",
+              "RelativeDocumentMoniker": "chess\\King.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.cpp",
+              "RelativeToolTip": "chess\\King.cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAApwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-22T16:48:09.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "King.h",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h",
+              "RelativeDocumentMoniker": "chess\\King.h",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\ekronot\\chess-program\\chess_project\\chess\\King.h",
+              "RelativeToolTip": "chess\\King.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T16:47:52.859Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"

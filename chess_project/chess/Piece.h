@@ -11,8 +11,7 @@ class Piece
 public:
 	Piece(string type = "", string place = "", Board* board = nullptr, string color = "");
 	~Piece();
-	virtual int move(string dest) = 0;
-	virtual int isValid(string dest) const = 0;
+	virtual int isMoveValid(string dest) const = 0;
 
 	void setPlace(string place);
 

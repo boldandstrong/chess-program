@@ -119,16 +119,18 @@ void Board::setBoard(Piece* newPiece, string place)
 	if (newPiece != nullptr)
 	{
 		this->_board[placeArr[0]][placeArr[1]]->setPlace(place);
+
+
+		if (newPiece->getType() == "k")
+		{
+			this->_king_black_place = place;
+		}
+		else if (newPiece->getType() == "K")
+		{
+			this->_king_white_place = place;
+		}
 	}
 
-	if (newPiece->getType() == "k")
-	{
-		this->_king_black_place = place;
-	}
-	else if (newPiece->getType() == "K")
-	{
-		this->_king_white_place = place;
-	}
 }
 
 Piece* Board::getPiece(string index) const
@@ -161,6 +163,9 @@ int Board::movePiece(string move, string player_color)
     int* srcArr = stringToIndex(src);
     int* dstArr = stringToIndex(dst);
 
+	Piece* srcPiece = this->_board[srcArr[0]][srcArr[1]];
+	Piece* dstPiece = this->_board[dstArr[0]][dstArr[1]];
+
 	if (player_color == "white")
 	{
 		enemy_player_color = "black";
@@ -168,6 +173,11 @@ int Board::movePiece(string move, string player_color)
 	else
 	{
 		enemy_player_color = "white";
+	}
+
+	if (srcPiece->getColor() == player_color)
+	{
+		return 9;
 	}
 
     if (!(srcArr[0] >= 0 && srcArr[0] <= 7 && srcArr[1] >= 0 && srcArr[1] <= 7 && dstArr[0] >= 0 && dstArr[0] <= 7 && dstArr[1] >= 0 && dstArr[1] <= 7))
@@ -180,26 +190,23 @@ int Board::movePiece(string move, string player_color)
 		return 7;
 	}
 
-	if (this->_board[srcArr[0]][srcArr[1]] == NULL)
+	if (srcPiece == NULL)
 	{
 		return 2;
 	}
 
-	if (this->_board[dstArr[0]][dstArr[1]] != NULL)
+	if (dstPiece != NULL)
 	{
-		if (this->_board[dstArr[0]][dstArr[1]]->getColor() == player_color)
+		if (dstPiece->getColor() == player_color)
 		{
 			return 3;
 		}
 	}
 
-	moveAns = this->_board[srcArr[0]][srcArr[1]]->move(dst);
+	moveAns = srcPiece->isMoveValid(dst);
 
 	if (moveAns == 0)
 	{
-		Piece* srcPiece = this->_board[srcArr[0]][srcArr[1]];
-		Piece* dstPiece = this->_board[dstArr[0]][dstArr[1]];
-
 		this->setBoard(srcPiece, dst);
 		this->setBoard(nullptr, src);
 
@@ -255,9 +262,12 @@ int Board::isCheck(string color) const
 		{
 			if (this->_board[i][j] != nullptr)
 			{
-				if (this->_board[i][j]->getColor() != this->_board[placeArr[0]][placeArr[1]]->getColor() && this->_board[i][j]->isValid(place) == 0)
+				if (this->_board[i][j]->getColor() != color)
 				{
-					return 1;
+					if(this->_board[i][j]->isMoveValid(place) == 0)
+					{
+						return 1;
+					}
 				}
 			}
 		}

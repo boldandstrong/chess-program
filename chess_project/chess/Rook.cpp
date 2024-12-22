@@ -7,24 +7,11 @@ Rook::Rook(string type, string place, Board* board, string color) : Piece(type, 
 Rook::~Rook()
 { }
 
-int Rook::move(std::string dest)
-{
-    int valid = isValid(dest);
-
-    return valid;
-
-}
-
-int Rook::isValid(string dest) const
+int Rook::isMoveValid(string dest) const
 {
     int* src = Board::stringToIndex(this->_place);
     int* dst = Board::stringToIndex(dest);
     int diffence = 0, i = 0;
-
-    int x = src[0];
-    int y = src[1];
-    int x2 = dst[0];
-    int y2 = dst[1];
 
     if (src[0] == dst[0])
     {

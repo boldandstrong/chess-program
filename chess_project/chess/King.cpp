@@ -6,14 +6,7 @@ King::King(string type, string place, Board* board, string color) : Piece(type, 
 King::~King()
 { }
 
-int King::move(string dest)
-{
-    int valid = isValid(dest);
-
-    return valid;
-}
-
-int King::isValid(string dest) const
+int King::isMoveValid(string dest) const
 {
     int* dstArr = Board::stringToIndex(dest);
     int* srcArr = Board::stringToIndex(this->_place);

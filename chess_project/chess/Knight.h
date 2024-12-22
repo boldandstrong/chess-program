@@ -1,10 +1,15 @@
 #pragma once
 #include "Piece.h"
+#include "string.h"
+using namespace std;
 #include "Board.h"
 
 class Knight : public Piece
 {
 public:
-	virtual int move(string dest) override;
-	virtual int isValid(string dest) const override;
+	Knight(string type, string place, Board* board, string color);
+	~Knight();
+
+
+	virtual int isMoveValid(string dest) const override;
 };

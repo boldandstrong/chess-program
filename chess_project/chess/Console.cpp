@@ -17,14 +17,14 @@ int main()
         "illegal move - invalid src/dst",
         "illegal move - illegal piece move!",
         "illegal move - src and dst are the same",
-        "legal move - you made checkmate!"
+        "legal move - you made checkmate!",
+        "ilegal move - u can only move with your pieces!"
     };
 
     string userInput = "";
     string move = "";
     string current_player = "white";
     Board* board = new Board();  
-   
 
     Player white(board, "white");
     Player black(board, "black");
@@ -34,8 +34,10 @@ int main()
     while (userInput != "checkMate")
     {
         board->printBoard();
+
         cout << "current player: " << current_player << endl;
         cout << "Enter your move: ";
+        
         cin >> move;
 
         moveAns = board->movePiece(move, current_player);
@@ -52,9 +54,7 @@ int main()
 
             // Switch player
             current_player = (current_player == "white") ? "black" : "white";
-        }
-        
-        
+        }   
     }
 
     delete board;  // Free memory

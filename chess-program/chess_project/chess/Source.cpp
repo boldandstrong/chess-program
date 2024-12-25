@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    // arr that have the list of posible answers
     string errorsArr[] =
     {
         "legal move - nice!",
@@ -22,17 +23,20 @@ int main()
         "ilegal move - u can only move with your pieces!"
     };
 
+    // conect to the Frontend 
     Pipe p;
-    cout << "sdf";
     bool isConnect = p.connect();
 
     string ans;
+    
     while (!isConnect)
     {
+        // if there are isiuse with connecting the Frontend
         cout << "cant connect to graphics" << endl;
         cout << "Do you try to connect again or exit? (0-try again, 1-exit)" << endl;
         std::cin >> ans;
-
+        
+        // if the client wants to try to reconect
         if (ans == "0")
         {
             cout << "trying connect again.." << endl;
@@ -41,11 +45,13 @@ int main()
         }
         else
         {
+            // if not close the program
             p.close();
             return 1;
         }
     }
-
+    
+    // local variables
     string userInput = "";
     string move = "";
     string current_player = "white";
@@ -63,20 +69,18 @@ int main()
     p.sendMessageToGraphics(msgToGraphics);
 
     msgFromGraphics = p.getMessageFromGraphics();
+    
     while (msgFromGraphics != "quit")
     {
-        //board->printBoard();\
-
-        cout << "current player: " << current_player << endl;/*
-        cout << "Enter your move: ";
-
-        cin >> move;*/
+        cout << "current player: " << current_player << endl;
+        
         board->printBoard();
 
         moveAns = board->movePiece(msgFromGraphics, current_player);
 
         cout << errorsArr[moveAns] << endl;
-
+    
+        // custom ans so  cast it into the legal answers
         if (moveAns == 9)
         {
             moveAns = 6;
@@ -87,7 +91,7 @@ int main()
 
         msgFromGraphics = p.getMessageFromGraphics();
 
-
+        // ןif move is legal
         if (moveAns == 8 || moveAns < 2)
         {
             if (moveAns == 8)
@@ -102,6 +106,5 @@ int main()
     }
 
     delete board;  // Free memory
-    return 0;
+    return 0;
 }
-

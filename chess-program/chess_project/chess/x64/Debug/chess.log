@@ -1,0 +1,11 @@
+﻿  Bishop.cpp
+  Board.cpp
+  King.cpp
+  Knight.cpp
+  Maneger.cpp
+  Pawn.cpp
+  Queen.cpp
+  Rook.cpp
+  Source.cpp
+  Generating Code...
+C:\Users\Cyber_User\Desktop\ekronot\chess-program\chess_project\chess\Maneger.cpp(207,1): error C4716: 'Maneger::play': must return a value
